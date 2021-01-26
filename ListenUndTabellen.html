@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Listen und so</title>
+  <style>
+
+    .list-background{
+      background-color: silver;
+    }
+
+    .table-background1 {
+      background-color: red;
+    }
+    .table-background2 {
+      background-color: blue;
+    }
+    .table-background3 {
+      background-color: purple;
+    }
+    .table-background4 {
+      background-color: green;
+    }
+    .table-background-changer {
+       animation: colorchange 10s infinite;
+     }
+     @keyframes colorchange {
+       0% {
+         background: #9400D3;
+       }
+       25% {
+         background: #0000FF;
+       }
+       50% {
+         background: #00FF00;
+       }
+       75% {
+         background: #FFFF00;
+       }
+       100% {
+         background: #FF0000;
+       }
+     }
+     #grad {
+        height: 90px;
+        width: 210px;
+        background-color: blue;
+        background-image: linear-gradient(to right, #1c87c9, #8ebf42);
+      }
+  </style>
+</head>
+<body>
+
+<h1>Meine Lieblingswebseiten</h1>
+<div id="grad">
+<ol>
+  <li>upday.de</li>
+  <li>amazon.de</li>
+  <li>spiegel.de</li>
+  <li>youtube.com</li>
+  <li>rottentomatoes.com</li>
+</ol>
+</div>
+<h1>Mein Einkaufsliste</h1>
+<div class="list-background">
+<ol>
+  <li>REWE</li>
+    <ul>
+      <li>Haferdrink</li>
+      <li>Obst</li>
+        <ul>
+          <li>Kirschen</li>
+          <li>Äpfel</li>
+          <li>Bananen</li>
+        </ul>
+    <li>Gemüse</li>
+        <ul>
+          <li>Tomaten</li>
+          <li>Avocados</li>
+        </ul>
+    </ul>
+<li>Edeka</li>
+  <ul>
+    <li>Veganes Eis</li>
+    <li>Eiweißbrot</li>
+  </ul>
+</ol>
+</div>
+
+<table div class="table-background-changer">
+  <tr>
+    <th>Künstler</th>
+    <th>Song</th>
+    <th>Erscheinungsjahr</th>
+  </tr>
+      <tr>
+        <td>Ed Sheeran</td>
+        <td>Perfect</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Marnik</td>
+        <td>Up & Down</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>FamilyJules</td>
+        <td>The Only Thing They Fear Is You</td>
+        <td>2020</td>
+      </tr>
+
+</table>
+
+</body>
+</html>
