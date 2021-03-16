@@ -1,0 +1,23 @@
+  #ZweiterAbsatz {
+    background: silver;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  p {
+    color: green;
+  }
+
+  .liebe {
+    color: orange;
+  }
+
+  .schule {
+    color: grey;
+  }
+
+  .hobby {
+    color: blue;
+  }
