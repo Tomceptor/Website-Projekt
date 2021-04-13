@@ -6,6 +6,20 @@
   color: green;
 }
 
-#black {
-  color: black;
+#red {
+  color: #ff6a6a;
+}
+
+span {
+  color: pink;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+h1 {
+  color: orange;
+  text-decoration: underline;
 }
