@@ -2,7 +2,7 @@
   color: cyan;
 }
 
-.green {
+#green {
   color: green;
 }
 
@@ -11,12 +11,11 @@
 }
 
 span {
-  color: pink;
+  font-size: 20px;
 }
 
 p {
   font-family: Verdana;
-  font-size: 20px;
 }
 
 h1 {
