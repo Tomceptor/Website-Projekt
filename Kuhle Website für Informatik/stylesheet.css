@@ -8,7 +8,6 @@
     -webkit-text-fill-color: #0000;
     background-clip: text;
     text-align: center;
-    margin-top: 50px;
 }
 
 @keyframes animatedBackground_a {
@@ -34,6 +33,25 @@
   text-align:left;
 }
 
+#definition{
+  font-family:"Comic Sans MS";
+  text-align:center;
+  font-size: 16px;
+}
+
 #hallo {
   text-align: center;
+}
+
+#audio {
+  font-family:"Comic Sans MS";
+  font-size: 14px;
+}
+
+#harold{
+  width: 500px;
+  margin: 5px;
+  padding: 10px;
+  border: 2px;
+  float: none;
 }
