@@ -18,7 +18,7 @@ height: auto;
      border: 3px solid;
      padding: 5px;
      margin: 15px;
-     float: left;
+     float: bottom;
      bottom: 100px;
      opacity: 0.8;
 }
@@ -30,7 +30,7 @@ height: auto;
       border: 3px solid;
       padding: 5px;
       margin: 15px;
-      float: left;
+      float: bottom;
       bottom: 160px;
       opacity: 0.8;
 }
@@ -61,4 +61,8 @@ height: auto;
 
 #image{
       float: bottom;
+}
+#text{
+      color: white;
+      
 }
